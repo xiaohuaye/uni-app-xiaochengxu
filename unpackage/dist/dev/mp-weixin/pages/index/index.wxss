@@ -1,0 +1,68 @@
+@font-face {font-family: "iconfont";
+  src: url('https://at.alicdn.com/t/font_1128539_js2fkck0opq.ttf?t=1554692482644') format('truetype')
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-weixin:before {
+  content: "\E615";
+}
+.icon-xiala:before {
+  content: "\E65B";
+}
+
+
+.content.data-v-c4499d56 {
+	text-align: left;
+	height: 400rpx;
+}
+.title.data-v-c4499d56 {
+	font-size: 36rpx;
+	color: #8f8f94;
+	border: 1px red solid;
+	padding-left: 50rpx;
+	width: 654rpx;
+}
+.transformText.data-v-c4499d56,.transformTextAfter.data-v-c4499d56{
+	height: 400rpx;
+	width: 700rpx;
+	border: 1px black solid;
+}
+.title-hover.data-v-c4499d56{
+	color: blue;
+}
+@-webkit-keyframes rotate-data-v-c4499d56{
+from{
+		-webkit-transform: rotateZ(0deg);
+		        transform: rotateZ(0deg);
+}
+to{
+		-webkit-transform: rotateZ(180deg);
+		        transform: rotateZ(180deg);
+}
+}
+@keyframes rotate-data-v-c4499d56{
+from{
+		-webkit-transform: rotateZ(0deg);
+		        transform: rotateZ(0deg);
+}
+to{
+		-webkit-transform: rotateZ(180deg);
+		        transform: rotateZ(180deg);
+}
+}
+.title-hover>.icon-xiala.data-v-c4499d56{
+	-webkit-transform-origin: 50% 40%;
+	    -ms-transform-origin: 50% 40%;
+	        transform-origin: 50% 40%;
+	display: inline-block;
+	-webkit-animation-duration: 0.5s;
+	        animation-duration: 0.5s;
+	-webkit-animation-name: rotate-data-v-c4499d56;
+	        animation-name: rotate-data-v-c4499d56;
+}
+
